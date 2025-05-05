@@ -182,10 +182,7 @@ export default function FundTransferPage() {
                         type="text"
                         {...register("targetAccountNumber", {
                           required: "Account number is required",
-                          pattern: {
-                            value: /^\d+$/,
-                            message: "Account number must contain only digits",
-                          },
+                         
                         })}
                         placeholder="Enter recipient account number"
                         className={`w-full pl-10 pr-10 py-3 rounded-lg border ${
