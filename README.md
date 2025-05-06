@@ -44,7 +44,7 @@ SecureBank UI is the frontend application for SecureBank, built using **Next.js*
    - Create a `.env.local` file in the root directory.
    - Add your backend API base URL and any other secrets:
      ```env
-     NEXT_PUBLIC_API_BASE_URL=https://your-api-url.com
+     NEXT_PUBLIC_API_URL=https://your-api-url.com
      NEXT_PUBLIC_TOKEN_NAME=tokenName
      ```
 
